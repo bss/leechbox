@@ -1,9 +1,6 @@
 #!/bin/bash
 apt-get update
 
-mkdir /data/downloads
-mkdir /data/torrents
-
 # Install rtorrent+dep
 mkdir .rtorrent_sessions
 apt-get install -y rtorrent tmux
