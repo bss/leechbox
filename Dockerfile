@@ -11,4 +11,6 @@ ADD start.py /
 
 RUN /bin/bash bootstrap.sh
 
+EXPOSE 31337
+
 ENTRYPOINT ["/usr/bin/python3", "start.py"]
