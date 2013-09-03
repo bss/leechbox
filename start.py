@@ -50,5 +50,4 @@ if __name__ == "__main__":
         json.dump(config, f, ensure_ascii=False)
 
     os.system("./btsync --config btsync.conf")
-    # os.system("rtorrent")
-    os.system("/bin/bash")
+    os.system("rtorrent")
