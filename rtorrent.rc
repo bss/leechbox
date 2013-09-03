@@ -1,0 +1,5 @@
+directory = /data/downloads
+session = ~/.rtorrent_sessions/
+schedule = watch_directory,5,5,load_start=~/data/torrents/*.torrent
+schedule = tied_directory,5,5,start_tied=
+schedule = untied_directory,5,5,remove_untied=
